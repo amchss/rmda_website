@@ -1,5 +1,5 @@
 ---
-title: "Exercise 5: Quarto"
+title: "Quarto"
 format: html
 ---
 

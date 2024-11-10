@@ -29,6 +29,7 @@ website:
         - exercise_quarto.qmd
         - exercise_stat_inference.qmd
         - exercise_regression.qmd
+        - exercise_gtsummary.qmd
     
 format:
   html:

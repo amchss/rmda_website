@@ -27,5 +27,5 @@ An accompanying online book will be provided to all participants, offering detai
 ### What is not covered in the workshop?
 
 ::: {style="text-align:justify"}
-This workshop focuses on foundational concepts in research methodologies, data analysis, and spatial epidemiology using R. It does not cover advanced statistical or epidemiological methods in depth. While key aspects of regression analysis and hypothesis testing will be introduced, the workshop does not delve into specialized topics like advanced machine learning techniques or complex statistical modeling. Participants seeking more advanced training in these areas may consider future workshops, depending on demand.
+This workshop focuses on foundational concepts in research methodologies,and data analysis using R. It does not cover advanced statistical or epidemiological methods in depth. While key aspects of regression analysis and hypothesis testing will be introduced, the workshop does not delve into specialized topics like advanced machine learning techniques or complex statistical modeling. Participants seeking more advanced training in these areas may consider future workshops, depending on demand.
 :::

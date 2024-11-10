@@ -1,0 +1,42 @@
+---
+title: "Homework: Joins and Pivot"
+format: html
+---
+
+## Part 1: Different `joins`
+
+### **Question 1:** Download the following data {.unnumbered}
+
+-   Click [here and download the NHANES basic information dataset](https://drive.google.com/file/d/1qSreweoNau9_sJ2LSTFGc0arp70QyBYR/view?usp=drive_link).
+-   Click [here and download the NHANES clinical information dataset](https://drive.google.com/file/d/1KVKJOlK6vpsy693gKKyEFDr3PjarcEUj/view?usp=sharing).
+-   Click [here and download the NHANES behavioural information dataset](https://drive.google.com/file/d/1hCbVYBul7f94KsBYc7af9AqxlT58FkzK/view?usp=sharing).
+
+### **Question 2:** Save the data into the `data` folder in your R project.
+
+### **Question 3:** Perform a `right_join()`
+
+- Join the clinical information dataset with the basic information dataset using `right_join()`.
+  
+  - *Hint:* Follow the instructions from the [joins tutorial](https://amchss.github.io/rmda_book/intro_r.html#join).
+
+### **Question 4:** Perform a `left_join()`
+
+- Now, join the behavioural information dataset with the newly created dataset (from Question 3) using `left_join()`.
+  
+  - *Hint:* Ensure the datasets have a common key to join on (e.g., `id`).
+
+### **Question 5:** Write the dataset as an RDS file
+
+- Save the final joined dataset as an `.rds` file in your `output` folder.
+  
+  - *Hint:* Use `saveRDS()` to save the dataset.
+
+---
+
+## Part 2: `pivot`
+
+### **Question 6:** Try Pivoting Your Own Data
+
+- Follow the instructions from the [pivot tutorial](https://amchss.github.io/rmda_book/intro_r.html#pivot) and practice pivoting your own dataset.
+
+  - *Hint:* Use `pivot_wider()` and `pivot_longer()` to reshape data as needed.

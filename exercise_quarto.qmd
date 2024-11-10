@@ -1,0 +1,118 @@
+---
+title: "Exercise 5: Quarto"
+format: html
+---
+
+
+This exercise is designed to introduce you to the basics of using Quarto documents in RStudio. You will practice creating and formatting text, using headings, inserting tables and images, and writing R code within Quarto documents. By completing this exercise, you will gain practical experience in document creation, code integration, and data visualization using Quarto, which is a valuable skill for producing professional reports and presentations.
+
+
+### **Question 1:** Open a New Quarto Document
+
+- Open a new Quarto document in RStudio and save it as `my_first_quarto.qmd` in a folder named `report` within your R project.
+
+
+### **Question 2:** Practice Text Formatting
+
+- Write the following sentence in different formats:
+
+  - Plain Text: `This is my first line in Quarto.`
+  - Italics: *This is my second line in Quarto.*
+  - Bold: **This is my third line in Quarto.**
+  - Bold and Italics: ***This is my fourth line in Quarto.***
+
+---
+
+### **Question 3:** Create Different Levels of Headings
+
+- Add the following headings and provide a brief description after each:
+
+  - `# Introduction`
+    - Describe the purpose of your document.
+  
+  - `## Background`
+    - Provide some context or background information.
+
+  - `## Objective`
+    - State the main objective of this exercise.
+
+  - `# Data and Methods`
+    - Explain the type of data used and the methods for analysis.
+
+  - `## Data`
+    - Give a brief overview of the dataset (e.g., source, variables included).
+
+
+
+### **Question 4:** Insert a Table
+
+- Create a table with three columns (`Variable`, `Description`, `Type`) and four rows.
+
+
+| Variable | Description             | Type     |
+|----------|-------------------------|----------|
+| age      | Age of the mother       | Numeric  |
+| race     | Race of the mother      | Categorical |
+| smoke    | Smoking status          | Binary   |
+| bwt      | Birth weight of the baby| Numeric  |
+
+
+### **Question 5:** Insert an Image
+
+- Insert an image named `plot.png` from the `plots` folder.
+
+
+
+
+### **Question 6:** Insert a Reference
+
+- Add a citation using the Quarto . 
+
+
+
+### **Question 7:** Load Packages and Data (Hidden Code)
+
+- Load necessary packages (`tidyverse`, `here`) and the low birth weight dataset without displaying the code in the output.
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+library(tidyverse)
+library(here)
+df <- read_csv(here("data", "low_birth_weight.csv"))
+```
+
+
+### **Question 8:** Show Code Without Execution
+
+- Display the following R code in your document, but do not run it.
+
+```{r}
+#| eval: false
+df |> names()
+```
+
+
+
+### **Question 9:** Display a Histogram Without Code
+
+- Create a histogram of the `bwt` (birth weight) variable, but only show the graph in the output.
+
+```{r}
+#| echo: false
+ggplot(df, aes(x = bwt)) + 
+  geom_histogram(binwidth = 100, fill = "blue", color = "black") +
+  labs(title = "Histogram of Birth Weight", x = "Birth Weight", y = "Frequency")
+```
+
+
+
+### **Question 10:** Write Inline Code
+
+- Display the mean birth weight of babies inline using R code.
+
+```markdown
+The mean birth weight of babies is `r mean(df$bwt, na.rm = TRUE)` grams.
+```

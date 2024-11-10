@@ -1,0 +1,201 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "exercise.html",
+    "href": "exercise.html",
+    "title": "Exercise",
+    "section": "",
+    "text": "This series of exercises is designed for participants of the Research Methodology and Data Analysis Workshop. The goal is to provide a practical introduction to R and RStudio, covering the essential skills needed for data analysis in research. Through hands-on tasks, participants will learn how to set up R projects, manage data, and apply statistical and epidemiological methods using R. These exercises will help build confidence in performing data analysis and interpreting results, making them ready for real-world research applications.",
+    "crumbs": [
+      "Exercise"
+    ]
+  },
+  {
+    "objectID": "exercise.html#exercise-1-understanding-r-project",
+    "href": "exercise.html#exercise-1-understanding-r-project",
+    "title": "Exercise",
+    "section": "",
+    "text": "The goal of this exercise is to help you set up an R Project in RStudio, familiarize yourself with creating and organizing project files and folders, and install and load essential R packages. By completing this exercise, you will gain a foundational understanding of how to manage your R working environment efficiently and ensure a structured approach to your data analysis projects.\n\n\n\nMake sure both R and RStudio are installed on your computer.\n\n\n\n\n\nLaunch RStudio on your computer.\n\n\n\n\n\nRun the following command in the R console:\n\ngetwd()\n\nDo you recognize this file path? Where does it point to?\n\n\n\n\n\nCreate a new R Project on your computer. You can choose a location such as “New Volume (D:)” on your computer.\n\n\n\n\n\nAfter creating the R Project, run:\n\ngetwd()\n\nWhere is your project located now? Is it the folder you just created?\n\n\n\n\n\nInside your project folder, create the following folders:\n\ndata\ncodes\noutput\n\n\n\n\n\n\nInstall the following packages if they are not already installed:\n\ninstall.packages(\"pacman\")\ninstall.packages(\"tidyverse\")\ninstall.packages(\"here\")\n\n\n\n\nOpen a new R script in RStudio.\nSave the script inside the codes folder you just created.\n\n\n\n\n\nIn your R script, load the installed packages using:\n\nlibrary(pacman)\npacman::p_load(here, tidyverse)\n\nDid you encounter any errors? If so, troubleshoot and ensure the packages are loaded correctly."
+  },
+  {
+    "objectID": "exercise.html#exercise-1-importing-and-exporting-data-into-r",
+    "href": "exercise.html#exercise-1-importing-and-exporting-data-into-r",
+    "title": "Exercise",
+    "section": "",
+    "text": "click here",
+    "crumbs": [
+      "Exercise"
+    ]
+  },
+  {
+    "objectID": "exercise1.html",
+    "href": "exercise1.html",
+    "title": "Exercise 1: Understanding R Project",
+    "section": "",
+    "text": "The goal of this exercise is to help you set up an R Project in RStudio, familiarize yourself with creating and organizing project files and folders, and install and load essential R packages. By completing this exercise, you will gain a foundational understanding of how to manage your R working environment efficiently and ensure a structured approach to your data analysis projects.\n\nQuestion 1: Ensure R and RStudio are installed\n\nMake sure both R and RStudio are installed on your computer.\n\n\n\nQuestion 2: Open RStudio\n\nLaunch RStudio on your computer.\n\n\n\nQuestion 3: Check Your Working Directory\n\nRun the following command in the R console:\n\ngetwd()\n\nDo you recognize this file path? Where does it point to?\n\n\n\nQuestion 4: Create a New R Project\n\nCreate a new R Project on your computer. You can choose a location such as “New Volume (D:)” on your computer.\n\n\n\nQuestion 5: Check Your Project’s Working Directory\n\nAfter creating the R Project, run:\n\ngetwd()\n\nWhere is your project located now? Is it the folder you just created?\n\n\n\nQuestion 6: Create Project Folders\n\nInside your project folder, create the following folders:\n\ndata\ncodes\noutput\n\n\n\n\nQuestion 7: Install Required Packages\n\nInstall the following packages if they are not already installed:\n\ninstall.packages(\"pacman\")\ninstall.packages(\"tidyverse\")\ninstall.packages(\"here\")\n\n\nQuestion 8: Save an R Script in the Codes Folder\n\nOpen a new R script in RStudio.\nSave the script inside the codes folder you just created.\n\n\n\nQuestion 9: Load the Packages in Your Script\n\nIn your R script, load the installed packages using:\n\nlibrary(pacman)\npacman::p_load(here, tidyverse)\n\nDid you encounter any errors? If so, troubleshoot and ensure the packages are loaded correctly.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 1: Understanding R Project"
+    ]
+  },
+  {
+    "objectID": "exercise2.html",
+    "href": "exercise2.html",
+    "title": "Exercise 2: Importing and Exporting Data into R",
+    "section": "",
+    "text": "In this exercise, you will learn how to handle data import and export in R, a fundamental skill for any data analysis project. You will start by downloading a sample dataset (low_birth_weight.csv), save it to your R Project folder, and then explore the different data formats commonly used in research. Following this, you will practice importing the dataset into R and exporting it in a different format (.rds). This exercise will help you understand how to efficiently manage datasets in R and prepare them for further analysis.\n\nQuestion 1: Download the Low Birth Weight Data\n\nClick here to download the dataset.\n\n\n\nQuestion 2: Save it into Your Data Folder in R Project\n\nSave the downloaded file into the data folder within your R Project.\n\n\n\nQuestion 3: What is the Low Birth Weight Data Format?\n\nDetermine the format of the downloaded dataset.\n\n\n\nQuestion 4: Which Data Formats are You Familiar With?\n\nList the data formats you have used before (e.g., csv, xlsx).\n\n\n\nQuestion 5: Import low_birth_weight.csv File into R\n\nUse R to import the low_birth_weight.csv file.\nhint(read_csv(), here())\n\n\n\nQuestion 6: Export the Data as .rds Format\n\nSave the imported data as an .rds file\nhint(write_rds())",
+    "crumbs": [
+      "Exercise",
+      "Exercise 2: Importing and Exporting Data into R"
+    ]
+  },
+  {
+    "objectID": "exercise3.html",
+    "href": "exercise3.html",
+    "title": "Exercise 3: Data Visualization",
+    "section": "",
+    "text": "The goal of this exercise is to introduce participants to data visualization using R and the ggplot2 package. By working through these tasks, you will learn how to create a variety of plots such as histograms, box plots, scatter plots, and bar charts. These visualizations will help you understand the distribution of the data and explore relationships between variables. Additionally, you will practice adding meaningful titles, labels, and captions to your plots, as well as saving them for future use. This exercise aims to enhance your skills in presenting data effectively using R.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 3: Data Visualization"
+    ]
+  },
+  {
+    "objectID": "exercise3.html#questions",
+    "href": "exercise3.html#questions",
+    "title": "Exercise 3: Data Visualization",
+    "section": "Questions",
+    "text": "Questions\n\nQuestion 1: Load the Data and Necessary Packages\n\nLoad the low birth weight dataset into R.\n\nHint: Use functions like read_csv() and here() for loading the data.\nHint: Use functions like pacman::p_load() for loading the packages.\n\n\n\n\nQuestion 2: Create a Histogram\n\nChoose a suitable continuous variable and create a histogram using ggplot.\n\nAdd a title, labels for the x and y axes, and a caption.\nHint: Use geom_histogram().\n\n\n\n\nQuestion 3: Create a Box Plot\n\nSelect an appropriate variable and create a box plot using ggplot.\n\nAdd a title and a caption for the plot.\nHint: Use geom_boxplot().\ntry race as x axis.\n\n\n\n\nQuestion 4: Create a Scatter Plot\n\nGenerate a scatter plot for the mother’s weight (lwt) and the child’s birth weight (bwt), with race used as a color grouping in ggplot.\n\nInclude a title, labels for the x and y axes, and a caption.\nHint: Use geom_point().\n\n\n\n\nQuestion 5: Create a Bar Chart\n\nIdentify a suitable categorical variable and create a bar chart using ggplot.\n\nAdd a title, labels for the x and y axes, and a caption.\nHint: Use geom_bar() for bar charts.\n\n\n\n\nQuestion 6: Save the Plot\n\nCreate a folder named plots in your R Project directory.\nSave the created plots in the plots folder using the ggsave() function.\n\nHint: Use ggsave(here::here(\"plots\", \"your_plot_name.png\").\n\n\n\n\nQuestion 7: Try facet_wrap()",
+    "crumbs": [
+      "Exercise",
+      "Exercise 3: Data Visualization"
+    ]
+  },
+  {
+    "objectID": "exercise4.html",
+    "href": "exercise4.html",
+    "title": "Exercise 4: Data Wrangling",
+    "section": "",
+    "text": "Questions 1 and 2 are mandatory for all groups.\nQuestion 3 - Group 1\nQuestion 4 - Group 2\nQuestion 5 - Group 3\nQuestion 6 - Group 4\n\n\n\n\nLoad the low birth weight dataset into R.\n\nHint: Use read_csv() and here() for loading the data.\nHint: Use pacman::p_load() for loading the required packages.\n\n\n\n\n\nTry the following R functions to get a basic understanding of the dataset:\n#| eval: false\n\ndf |&gt; \n  class()     # Check the class of the data frame\n\ndf |&gt; \n  dim()       # Check the dimensions of the dataset (rows and columns)\n\ndf |&gt; \n  nrow()      # Get the number of rows\n\ndf |&gt; \n  ncol()      # Get the number of columns\n\ndf |&gt; \n  glimpse()   # Get a quick overview of the data structure\n\ndf |&gt; \n  view()      # View the dataset in a separate window\n\ndf |&gt; \n  names()     # Get the names of the columns\n\n\n\n\nDetermine how many smokers are present in the low birth weight dataset.\n\nHint: Use functions like select() and count().\n\n\n\n\n\n\nFind the number of babies classified as having low birth weight in the dataset.\n\nHint: Use select() and count().\n\n\n\n\n\n\nIdentify how many distinct races are represented in the low birth weight dataset.\n\nHint: Use select() and count().\n\n\n\n\n\n\nDetermine the highest and lowest birth weights recorded in the dataset.\n\nHint: Use summary(), max(), or min() functions.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 4: Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "exercise4.html#part-1",
+    "href": "exercise4.html#part-1",
+    "title": "Exercise 4: Data Wrangling",
+    "section": "",
+    "text": "Question 1 and 2 are mandatory for all groups\nQuestion 3 - Group 1\nQuestion 4 - Group 2\nQuestion 5 - Group 3\nQuestion 6 - Group 4\n\n\n\n\nLoad the low birth weight dataset into R.\n\nHint: Use functions like read_csv() and here() for loading the data.\nHint: Use functions like pacman::p_load() for loading the packages.\n\n\n\n\n\n\ndf |&gt; \n  class()     # Check the class of the data frame\n\n\ndf |&gt; \n  dim()       # Check the dimensions of the dataset (rows and columns)\n\n\ndf |&gt; \n  nrow()      # Get the number of rows\n\n\ndf |&gt; \n  ncol()      # Get the number of columns\n\n\ndf |&gt; \n  glimpse()   # Get a quick overview of the data structure\n\n\ndf |&gt; \n  view()      # View the dataset in a separate window\n\n# names\n\ndf |&gt; \n  names()\n\n\n\n\n\ntry select, count\n\n\n\n\n\ntry select, count\n\n\n\n\n\ntry select, count\n\n\n\n\n\ntry summary or max or min",
+    "crumbs": [
+      "Exercise",
+      "Exercise 4: Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "exercise4.html#part-2",
+    "href": "exercise4.html#part-2",
+    "title": "Exercise 4: Data Wrangling",
+    "section": "Part 2",
+    "text": "Part 2",
+    "crumbs": [
+      "Exercise",
+      "Exercise 4: Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "exercise4.html#part-1-basic-data-exploration",
+    "href": "exercise4.html#part-1-basic-data-exploration",
+    "title": "Exercise 4: Data Wrangling",
+    "section": "",
+    "text": "Questions 1 and 2 are mandatory for all groups.\nQuestion 3 - Group 1\nQuestion 4 - Group 2\nQuestion 5 - Group 3\nQuestion 6 - Group 4\n\n\n\n\nLoad the low birth weight dataset into R.\n\nHint: Use read_csv() and here() for loading the data.\nHint: Use pacman::p_load() for loading the required packages.\n\n\n\n\n\nTry the following R functions to get a basic understanding of the dataset:\n#| eval: false\n\ndf |&gt; \n  class()     # Check the class of the data frame\n\ndf |&gt; \n  dim()       # Check the dimensions of the dataset (rows and columns)\n\ndf |&gt; \n  nrow()      # Get the number of rows\n\ndf |&gt; \n  ncol()      # Get the number of columns\n\ndf |&gt; \n  glimpse()   # Get a quick overview of the data structure\n\ndf |&gt; \n  view()      # View the dataset in a separate window\n\ndf |&gt; \n  names()     # Get the names of the columns\n\n\n\n\nDetermine how many smokers are present in the low birth weight dataset.\n\nHint: Use functions like select() and count().\n\n\n\n\n\n\nFind the number of babies classified as having low birth weight in the dataset.\n\nHint: Use select() and count().\n\n\n\n\n\n\nIdentify how many distinct races are represented in the low birth weight dataset.\n\nHint: Use select() and count().\n\n\n\n\n\n\nDetermine the highest and lowest birth weights recorded in the dataset.\n\nHint: Use summary(), max(), or min() functions.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 4: Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "exercise4.html#part-2-advanced-data-wrangling",
+    "href": "exercise4.html#part-2-advanced-data-wrangling",
+    "title": "Exercise 4: Data Wrangling",
+    "section": "Part 2: Advanced Data Wrangling",
+    "text": "Part 2: Advanced Data Wrangling\nIn Part 2, you will build on the basic data exploration tasks by applying more advanced data wrangling techniques such as filtering, grouping, and summarizing. These exercises will help deepen your understanding of data manipulation in R.\n\nQuestions 7 and 12 are mandatory for all groups.\nQuestion 8 - Group 1\nQuestion 9 - Group 2\nQuestion 10 - Group 3\nQuestion 11 - Group 4\n\n\nQuestion 7: Filter for Smokers\n\nFilter the dataset to find only the records of mothers who smoke (smoke variable).\n\nHint: Use filter() to select rows where smoke == 1 (assuming 1 represents smokers).\n\n\n\n\nQuestion 8: Create a Summary Table of Birth Weights by Race\n\nGroup the data by the race variable and calculate the average birth weight (bwt) for each race.\n\nHint: Use group_by() and summarize() to create this summary table.\nHint: You can also calculate other summary statistics such as the median or standard deviation of birth weights.\n\n\n\n\nQuestion 9: Create a New Variable for BMI Category\n\nCreate a new variable bmi_category based on the mother’s BMI (bmi). You can categorize bmi into three categories: “Underweight” (BMI &lt; 18.5), “Normal weight” (18.5 ≤ BMI &lt; 24.9), and “Overweight” (BMI ≥ 25).\n\nHint: Use mutate() along with case_when() to create the new variable.\n\n\n\n\nQuestion 10: Count the Number of Babies by BMI Category and Smoking Status\n\nGroup the dataset by both bmi_category and smoke (whether the mother smokes or not), and count the number of babies in each group.\n\nHint: Use group_by() and count() to achieve this.\n\n\n\n\nQuestion 11: Filter Babies Born with Low Birth Weight and Mother’s BMI Over 30\n\nFilter the dataset to find babies who were born with a low birth weight (bwt &lt; 2500g) and whose mother has a BMI greater than 30.\n\nHint: Use filter() to select both conditions.\n\n\n\n\nQuestion 12: Calculate the Proportion of Babies with Low Birth Weight for Each Race\n\nFor each race, calculate the proportion of babies with low birth weight (bwt &lt; 2500g) relative to the total number of babies in each race.\n\nHint: Use group_by() and mutate() to calculate the proportion. Use sum() to count the number of babies with low birth weight.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 4: Data Wrangling"
+    ]
+  },
+  {
+    "objectID": "homework1.html",
+    "href": "homework1.html",
+    "title": "Homework: Joins and Pivot",
+    "section": "",
+    "text": "Click here and download the NHANES basic information dataset.\nClick here and download the NHANES clinical information dataset.\nClick here and download the NHANES behavioural information dataset.\n\n\n\n\n\n\n\n\nJoin the clinical information dataset with the basic information dataset using right_join().\n\nHint: Follow the instructions from the joins tutorial.\n\n\n\n\n\n\nNow, join the behavioural information dataset with the newly created dataset (from Question 3) using left_join().\n\nHint: Ensure the datasets have a common key to join on (e.g., id).\n\n\n\n\n\n\nSave the final joined dataset as an .rds file in your output folder.\n\nHint: Use saveRDS() to save the dataset.",
+    "crumbs": [
+      "Exercise",
+      "Homework: Joins and Pivot"
+    ]
+  },
+  {
+    "objectID": "homework1.html#part-1-different-joins",
+    "href": "homework1.html#part-1-different-joins",
+    "title": "Homework: Joins and Pivot",
+    "section": "",
+    "text": "Click here and download the NHANES basic information dataset.\nClick here and download the NHANES clinical information dataset.\nClick here and download the NHANES behavioural information dataset.\n\n\n\n\n\n\n\n\nJoin the clinical information dataset with the basic information dataset using right_join().\n\nHint: Follow the instructions from the joins tutorial.\n\n\n\n\n\n\nNow, join the behavioural information dataset with the newly created dataset (from Question 3) using left_join().\n\nHint: Ensure the datasets have a common key to join on (e.g., id).\n\n\n\n\n\n\nSave the final joined dataset as an .rds file in your output folder.\n\nHint: Use saveRDS() to save the dataset.",
+    "crumbs": [
+      "Exercise",
+      "Homework: Joins and Pivot"
+    ]
+  },
+  {
+    "objectID": "homework1.html#part-2-pivot",
+    "href": "homework1.html#part-2-pivot",
+    "title": "Homework: Joins and Pivot",
+    "section": "Part 2: pivot",
+    "text": "Part 2: pivot\n\nQuestion 6: Try Pivoting Your Own Data\n\nFollow the instructions from the pivot tutorial and practice pivoting your own dataset.\n\nHint: Use pivot_wider() and pivot_longer() to reshape data as needed.",
+    "crumbs": [
+      "Exercise",
+      "Homework: Joins and Pivot"
+    ]
+  },
+  {
+    "objectID": "exercise_quarto.html",
+    "href": "exercise_quarto.html",
+    "title": "Exercise 5: Quarto",
+    "section": "",
+    "text": "This exercise is designed to introduce you to the basics of using Quarto documents in RStudio. You will practice creating and formatting text, using headings, inserting tables and images, and writing R code within Quarto documents. By completing this exercise, you will gain practical experience in document creation, code integration, and data visualization using Quarto, which is a valuable skill for producing professional reports and presentations.\n\nQuestion 1: Open a New Quarto Document\n\nOpen a new Quarto document in RStudio and save it as my_first_quarto.qmd in a folder named report within your R project.\n\n\n\nQuestion 2: Practice Text Formatting\n\nWrite the following sentence in different formats:\n\nPlain Text: This is my first line in Quarto.\nItalics: This is my second line in Quarto.\nBold: This is my third line in Quarto.\nBold and Italics: This is my fourth line in Quarto.\n\n\n\n\n\nQuestion 3: Create Different Levels of Headings\n\nAdd the following headings and provide a brief description after each:\n\n# Introduction\n\nDescribe the purpose of your document.\n\n## Background\n\nProvide some context or background information.\n\n## Objective\n\nState the main objective of this exercise.\n\n# Data and Methods\n\nExplain the type of data used and the methods for analysis.\n\n## Data\n\nGive a brief overview of the dataset (e.g., source, variables included).\n\n\n\n\n\nQuestion 4: Insert a Table\n\nCreate a table with three columns (Variable, Description, Type) and four rows.\n\n\n\n\nVariable\nDescription\nType\n\n\n\n\nage\nAge of the mother\nNumeric\n\n\nrace\nRace of the mother\nCategorical\n\n\nsmoke\nSmoking status\nBinary\n\n\nbwt\nBirth weight of the baby\nNumeric\n\n\n\n\n\nQuestion 5: Insert an Image\n\nInsert an image named plot.png from the plots folder.\n\n\n\nQuestion 6: Insert a Reference\n\nAdd a citation using the Quarto .\n\n\n\nQuestion 7: Load Packages and Data (Hidden Code)\n\nLoad necessary packages (tidyverse, here) and the low birth weight dataset without displaying the code in the output.\n\n\n\nQuestion 8: Show Code Without Execution\n\nDisplay the following R code in your document, but do not run it.\n\n\ndf |&gt; names()\n\n\n\nQuestion 9: Display a Histogram Without Code\n\nCreate a histogram of the bwt (birth weight) variable, but only show the graph in the output.\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 10: Write Inline Code\n\nDisplay the mean birth weight of babies inline using R code.\n\nThe mean birth weight of babies is 2944.5873016 grams.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 5: Quarto"
+    ]
+  },
+  {
+    "objectID": "exercise_stat_inference.html",
+    "href": "exercise_stat_inference.html",
+    "title": "Exercise 6: Hypothesis Testing & Confidence Interval",
+    "section": "",
+    "text": "In this exercise, you will apply different statistical inference techniques to analyze the low birth weight dataset. The questions are designed to help you decide which hypothesis test is most appropriate for each scenario. You will learn to interpret the results and make data-driven conclusions.\n\n\nInstructions\n\nQuestions 1 mandatory for all groups.\nQuestion 2 - Group 1\nQuestion 3 - Group 2\nQuestion 4 - Group 3\nQuestion 5 - Group 4\n\n\n\n\nQuestion 1: Testing the Mean Birth Weight\n\nIs the average birth weight of babies in the dataset significantly different from 2500 grams?\n\nHint: Use the bwt variable for testing the mean of a single sample.\nState the null and alternative hypotheses.\nPerform the analysis and interpret the p-value.\n\n\n\n\n\nQuestion 2: Comparing Birth Weights Based on Smoking Status\n\nIs there a significant difference in the mean birth weight of babies born to mothers who smoke compared to those who do not smoke?\n\nHint: Use the bwt variable for birth weight and smoke variable for smoking status.\nDefine your null and alternative hypotheses.\nReport the summary statistics and interpret the test results.\n\n\n\n\n\nQuestion 3: Proportion of Low Birth Weight Babies\n\nIs the proportion of babies with low birth weight (defined as less than 2500 grams) significantly different from 10% in this dataset?\n\nHint: Use the low variable for categorizing low birth weight.\nState the null and alternative hypotheses.\nReport the proportion and draw a conclusion based on your analysis.\n\n\n\n\n\nQuestion 4: Analyzing Birth Weight Across Different Races\n\nDoes the mean birth weight of babies differ across different racial groups in the dataset?\n\nHint: Use the race variable for grouping and the bwt variable for analysis.\nFormulate the null and alternative hypotheses.\nSummarize the findings and interpret the p-value.\n\n\n\n\n\nQuestion 5: Association Between Maternal Smoking and Low Birth Weight\n\nIs there an association between maternal smoking status and the likelihood of having a low birth weight baby (birth weight &lt; 2500 grams)?\n\nHint: Use the smoke variable for smoking status and the low variable for categorizing low birth weight.\nDefine your hypotheses.\nReport the test statistic and p-value, and explain your conclusion.",
+    "crumbs": [
+      "Exercise",
+      "Exercise 6: Hypothesis Testing & Confidence Interval"
+    ]
+  },
+  {
+    "objectID": "exercise_regression.html",
+    "href": "exercise_regression.html",
+    "title": "Exercise 7: Regression Analysis",
+    "section": "",
+    "text": "In this exercise, you will apply different types of regression analyses to the low birth weight dataset. The questions are designed to help you decide which regression model is most appropriate based on the variables provided. You will learn to interpret the results and make data-driven conclusions.\n\n\nInstructions\n\nComplete all four questions using the low_birth_weight dataset.\nProvide a brief interpretation of your findings for each question.\nSave your report as a Quarto (.qmd) file.\n\n\n\n\nQuestion 1: Simple Linear Regression with Continuous Predictor\n\nExplore the relationship between birth weight (bwt) and mother’s weight (lwt).\nUse bwt as the dependent variable and lwt as the independent variable.\nFit a simple linear regression model.\nState the regression equation and interpret the coefficients:\nComment on the significance of the predictor.\n\n\n\nCode\nlm_bwt_lwt &lt;- lm(bwt ~ lwt, data = df)\nsummary(lm_bwt_lwt)\n\n\n\n\n\nQuestion 2: Simple Linear Regression with Categorical Predictor\n\nExplore the relationship between birth weight (bwt) and smoking status (smoke).\nUse bwt as the dependent variable and smoke as the independent variable.\nFit a simple linear regression model with smoke as a categorical predictor.\nState the regression equation and interpret the coefficients:\nDiscuss the significance of the predictor.\n\n\n\nCode\nlm_bwt_smoke &lt;- lm(bwt ~ smoke, data = df)\nsummary(lm_bwt_smoke)\n\n\n\n\n\nQuestion 3: Multiple Linear Regression with Continuous and Categorical Predictors\n\nExplore the relationship between birth weight (bwt), mother’s weight (lwt), and smoking status (smoke).\nUse lwt as the dependent variable, with both age (continuous) and smoke (categorical) as independent variables.\nFit a multiple linear regression model.\nState the regression equation and interpret the coefficients:\nDiscuss the significance of each predictor.\n\n\n\nCode\nlm_bwt_lwt_smoke &lt;- lm(bwt ~ lwt + smoke, data = df)\nsummary(lm_bwt_lwt_smoke)\n\n\n\n\n\nQuestion 4: Logistic Regression with Categorical Outcome\n\nExplore the relationship between low birth weight (low) and and race (race).\nUse low (binary outcome) as the dependent variable and race (categorical) as independent variables.\nFit a logistic regression model.\nReport the odds ratios and interpret the coefficients:(take exponential of coefficients exp(coef(model)))\nComment on the significance of each predictor.\n\nMandatory:\n\n# Recode 'low' variable to binary using dplyr\ndf &lt;- df %&gt;%\n  mutate(low = if_else(low == \"Normal\", 0, 1))\n\ndf &lt;- df %&gt;%\n  mutate(\n    race = factor(race, levels = c(\"White\", \"Black\", \"Others\")) # Reorder factor levels\n  )\n\n\n\nCode\n# Fit the logistic regression model using glm\nglm_low_birth_weight &lt;- glm(low ~  race, data = df, family = binomial)\n\n# Display the model summary\nsummary(glm_low_birth_weight)\n\nexp(coef(glm_low_birth_weight))",
+    "crumbs": [
+      "Exercise",
+      "Exercise 7: Regression Analysis"
+    ]
+  }
+]

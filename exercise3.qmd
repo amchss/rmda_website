@@ -4,8 +4,11 @@ format: html
 editor_options: 
   chunk_output_type: console
 ---
+::: {style="text-align:justify"}
 
 The goal of this exercise is to introduce participants to data visualization using R and the ggplot2 package. By working through these tasks, you will learn how to create a variety of plots such as histograms, box plots, scatter plots, and bar charts. These visualizations will help you understand the distribution of the data and explore relationships between variables. Additionally, you will practice adding meaningful titles, labels, and captions to your plots, as well as saving them for future use. This exercise aims to enhance your skills in presenting data effectively using R.
+
+:::
 
 - Question 1 and 6 are **mandatory for all groups**.
 

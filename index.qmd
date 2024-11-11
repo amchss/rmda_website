@@ -6,7 +6,7 @@ Welcome to our website!
 
 This platform serves as the official companion to the Research Methodology and Data Analysis workshop, crafted and maintained by the Public Health Data Science Lab at the **Achutha Menon Centre for Health Science Studies, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum**. We're excited to support your journey through this workshop, where knowledge meets practical application.
 
-The workshop is held at IQRAA Hospital in Calicut from 14th to 16th November 2024, bringing together clinicians and researchers to enhance their understanding of research methodology and data analysis techniques.
+The workshop is held at **IQRAA Hospital** in **Calicut** from **14th to 16th November 2024**, bringing together clinicians and researchers to enhance their understanding of research methodology and data analysis techniques.
 
 The overall goal of this workshop is to introduce healthcare professionals to fundamental research methodologies and equip them with practical skills in data analysis using R. Participants will gain a solid understanding of statistical techniques, data visualization, and the use of R programming for reproducible research. Additionally, the workshop will explore how to create publication-ready tables and apply these methods to real-world healthcare data, with a special focus on epidemiological measures.
 :::

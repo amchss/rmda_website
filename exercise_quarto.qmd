@@ -114,5 +114,5 @@ ggplot(df, aes(x = bwt)) +
 - Display the mean birth weight of babies inline using R code.
 
 ```markdown
-The mean birth weight of babies is `r mean(df$bwt, na.rm = TRUE)` grams.
+The mean birth weight of babies is `r round(mean(df$bwt, na.rm = TRUE), 0)` grams.
 ```

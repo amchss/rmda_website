@@ -269,5 +269,16 @@
       "Exercise",
       "Exercise 9: Zotero"
     ]
+  },
+  {
+    "objectID": "all_data.html",
+    "href": "all_data.html",
+    "title": "All Data",
+    "section": "",
+    "text": "All Data\n\nClick here to download the Low Bith Weight dataset.\nClick here and download the NHANES basic information dataset.\nClick here and download the NHANES clinical information dataset.\nClick here and download the NHANES behavioural information dataset.\nClick here and download the combined NHANES dataset.\nClick here and download the data for incidence and prevalence demo.\nClick here and download the data for ROC demo.\nClick here and download the quarto demo qmd file.\nClick here and download the demo ODK XLSX form.",
+    "crumbs": [
+      "Exercise",
+      "All Data"
+    ]
   }
 ]

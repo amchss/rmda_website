@@ -13,7 +13,9 @@ website:
       - text: "Schedule"
         href: schedule.qmd
       - text: "Exercise"
-        href: exercise.qmd        
+        href: exercise.qmd    
+      - text: "About"
+        href: about.qmd   
 
   sidebar:
     - title: "Exercise"

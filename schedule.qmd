@@ -11,39 +11,39 @@ The schedule includes a variety of sessions designed to introduce participants t
 
 ------------------------------------------------------------------------
 
-| **Day** | **Session** | **Time**    | **Topic**                                                                                                                                           |
-|-----------------|-----------------|-----------------|-----------------------|
-| Day 1   | Morning     | 09:00-09:30 | Inauguration                                                                                                                                        |
-|         |             | 09:30-10:00 | [Introduction to Data Science & R Programming Language](https://amchss.github.io/rmda_book/intro_r.html)                                            |
-|         |             | 10:00-10:30 | Tea Break                                                                                                                                           |
-|         |             | 10:30-10:45 | Introduction to Research                                                                                                                            |
-|         |             | 11:00-11:15 | Steps in Research & Research Question                                                                                                               |
-|         |             | 11:15-12:00 | Types of Research Design                                                                                                                            |
-|         |             | 12:00-12:30 | Sample Size Estimation & Sampling Technique                                                                                                         |
-|         |             | 12:30-13:30 | Lunch Break                                                                                                                                         |
-|         | Afternoon   | 13:30-14:30 | Literature Review & Search Strategy & Bibliographic Software (Zotero)                                                                               |
-|         |             | 14:30-15:30 | Introduction to Digital Data Collection Tools (ODK)                                                                                                 |
-|         |             | 15:30-15:45 | Tea Break                                                                                                                                           |
-|         |             | 15:45-17:00 | [Introduction to R program & R Studio interface Pane Layout](https://amchss.github.io/rmda_book/intro_r.html#understanding-the-rstudio-environment) |
-| Day 2   | Morning     | 09:00-09:30 | Recap of the previous day                                                                                                                           |
-|         |             | 09:30-10:00 | Types of variable                                                                                                                                   |
-|         |             | 10:00-10:30 | Tea Break                                                                                                                                           |
-|         |             | 10:30-11:00 | [Project Creation, Reading & Writing Data](https://amchss.github.io/rmda_book/intro_r.html#fundamentals-of-working-with-data)                       |
-|         |             | 11:00-12:00 | [Data Visualization using R](https://amchss.github.io/rmda_book/statistical_methods.html#descriptive-statistics-graphical-methods)                  |
-|         |             | 12:00-12:30 | [Data Exploration Verbs](https://amchss.github.io/rmda_book/intro_r.html#exploring-data-with-r)                                                     |
-|         |             | 12:30-13:30 | Lunch Break                                                                                                                                         |
-|         | Afternoon   | 13:30-14:30 | [Data Exploration Verbs](https://amchss.github.io/rmda_book/intro_r.html#dplyr-package)                                                             |
-|         |             | 14:30-15:30 | [Descriptive Statistics: Numeric Methods](https://amchss.github.io/rmda_book/statistical_methods.html#descriptive-statistics-numerical-methods)     |
-|         |             | 13:30-13:45 | Tea Break                                                                                                                                           |
-|         |             | 13:45-15:00 | [Introduction to Quarto](https://amchss.github.io/rmda_book/quarto.html)                                                                            |
-| Day 3   | Morning     | 09:00-09:15 | Recap of Previous Day                                                                                                                               |
-|         |             | 09:15-10:00 | [Inferential Statistics](https://amchss.github.io/rmda_book/statistical_methods.html#inferential-statistics)                                        |
-|         |             | 10:00-10:30 | Tea Break                                                                                                                                           |
-|         |             | 10:30-11:30 | [Regression Analysis](https://amchss.github.io/rmda_book/statistical_methods.html#inferential-statistics-regression-analysis)                       |
-|         |             | 11:30-12:30 | [Publication Ready Table](https://amchss.github.io/rmda_book/quarto.html#creating-publication-ready-tables-with-gtsummary)                          |
-|         | Afternoon   | 12:30-13:30 | Lunch Break                                                                                                                                         |
-|         |             | 13:30-14:00 | [Epidemiological Measures](https://amchss.github.io/rmda_book/epi_measures.html)                                                                    |
-|         |             | 14:00-15:00 | Hands-on with own datasets                                                                                                                          |
-|         |             | 15:00-15:30 | Tea Break                                                                                                                                           |
-|         |             | 15:30-16:00 | Doubt Clearance                                                                                                                                     |
-|         |             | 16:00-17:00 | Feedback & Valedictory                                                                                                                              |
+| **Day** | **Session** | **Time** | **Topic** |
+|-----------------|-----------------|-----------------|---------------------|
+| Day 1 | Morning | 09:00-09:30 | Inauguration |
+|  |  | 09:30-10:00 | [Introduction to Data Science & R Programming Language](https://amchss.github.io/rmda_book/intro_r.html) |
+|  |  | 10:00-10:30 | Tea Break |
+|  |  | 10:30-10:45 | [Introduction to Research](https://amchss.github.io/rmda_book/research_methods.html) |
+|  |  | 11:00-11:15 | [Steps in Research & Research Question](https://amchss.github.io/rmda_book/research_quality_issues.html) |
+|  |  | 11:15-12:00 | [Types of Research Design](https://amchss.github.io/rmda_book/study_design.html) |
+|  |  | 12:00-12:30 | [Sampling Design & Sample Size Estimation](https://amchss.github.io/rmda_book/research_quality_issues.html#sampling-design-data-collection) |
+|  |  | 12:30-13:30 | Lunch Break |
+|  | Afternoon | 13:30-14:30 | [Literature Review & Search Strategy & Bibliographic Software (Zotero)](https://amchss.github.io/rmda_book/research_quality_issues.html#the-role-of-the-literature-review-in-research) |
+|  |  | 14:30-15:30 | [Introduction to Digital Data Collection Tools (ODK)](https://amchss.github.io/rmda_book/digital_data.html) |
+|  |  | 15:30-15:45 | Tea Break |
+|  |  | 15:45-17:00 | [Introduction to R program & R Studio interface Pane Layout](https://amchss.github.io/rmda_book/intro_r.html#understanding-the-rstudio-environment) |
+| Day 2 | Morning | 09:00-09:30 | Recap of the previous day |
+|  |  | 09:30-10:00 | [Types of variable](https://amchss.github.io/rmda_book/statistical_methods.html#types-of-variables) |
+|  |  | 10:00-10:30 | Tea Break |
+|  |  | 10:30-11:00 | [Project Creation, Reading & Writing Data](https://amchss.github.io/rmda_book/intro_r.html#fundamentals-of-working-with-data) |
+|  |  | 11:00-12:00 | [Data Visualization using R](https://amchss.github.io/rmda_book/statistical_methods.html#descriptive-statistics-graphical-methods) |
+|  |  | 12:00-12:30 | [Data Exploration Verbs](https://amchss.github.io/rmda_book/intro_r.html#exploring-data-with-r) |
+|  |  | 12:30-13:30 | Lunch Break |
+|  | Afternoon | 13:30-14:30 | [Data Exploration Verbs](https://amchss.github.io/rmda_book/intro_r.html#dplyr-package) |
+|  |  | 14:30-15:30 | [Descriptive Statistics: Numeric Methods](https://amchss.github.io/rmda_book/statistical_methods.html#descriptive-statistics-numerical-methods) |
+|  |  | 13:30-13:45 | Tea Break |
+|  |  | 13:45-15:00 | [Introduction to Quarto](https://amchss.github.io/rmda_book/quarto.html) |
+| Day 3 | Morning | 09:00-09:15 | Recap of Previous Day |
+|  |  | 09:15-10:00 | [Inferential Statistics](https://amchss.github.io/rmda_book/statistical_methods.html#inferential-statistics) |
+|  |  | 10:00-10:30 | Tea Break |
+|  |  | 10:30-11:30 | [Regression Analysis](https://amchss.github.io/rmda_book/statistical_methods.html#inferential-statistics-regression-analysis) |
+|  |  | 11:30-12:30 | [Publication Ready Table](https://amchss.github.io/rmda_book/quarto.html#creating-publication-ready-tables-with-gtsummary) |
+|  | Afternoon | 12:30-13:30 | Lunch Break |
+|  |  | 13:30-14:00 | [Epidemiological Measures](https://amchss.github.io/rmda_book/epi_measures.html) |
+|  |  | 14:00-15:00 | Hands-on with own datasets |
+|  |  | 15:00-15:30 | Tea Break |
+|  |  | 15:30-16:00 | Doubt Clearance |
+|  |  | 16:00-17:00 | Feedback & Valedictory |

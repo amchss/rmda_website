@@ -93,7 +93,7 @@ df |>
 
 - Find the number of babies classified as having low birth weight in the dataset.
 
-  - *Hint:* Use `select()` and `count()`.
+   - *Hint:* Use function `count()`.
 
 ```{r}
 #| echo: false
@@ -102,7 +102,8 @@ df |>
 #| results: false
 
 
-
+df |> 
+  count(low)
 
 ```
 
@@ -119,6 +120,8 @@ df |>
 #| results: false
 
 
+df |> 
+  count(race)
 
 
 ```
@@ -128,6 +131,22 @@ df |>
 - Determine the highest and lowest birth weights recorded in the dataset.
 
   - *Hint:* Use `summary()`, `max()`, or `min()` functions.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: false
+
+
+max(df$bwt)
+
+min(df$bwt)
+
+summary(df$bwt)
+
+```
+
 
 ## Part 2: Advanced Data Wrangling
 
@@ -148,7 +167,7 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 
 - Filter the dataset to find only the records of mothers who smoke (`smoke` variable).
   
-  - *Hint:* Use `filter()` to select rows where `smoke == 1` (assuming `1` represents smokers).
+  - *Hint:* Use `filter()` to select rows where `smoke == "Smoker"` (assuming `1` represents smokers).
 
 ```{r}
 #| echo: false
@@ -157,7 +176,8 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| results: false
 
 
-
+df |> 
+  filter(smoke == "Smoker")
 
 ```
 
@@ -174,16 +194,25 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| message: false
 #| results: false
 
-
+df |> 
+  group_by(race) |> 
+  summarise(mean = mean(bwt),
+            sd = sd(bwt))
 
 
 ```
 
-### **Question 9:** Create a New Variable for BMI Category
+### **Question 9:** Create a New Variable for Mother's Weight Category
 
-- Create a new variable `bmi_category` based on the mother's BMI (`bmi`). You can categorize `bmi` into three categories: "Underweight" (BMI < 18.5), "Normal weight" (18.5 ≤ BMI < 24.9), and "Overweight" (BMI ≥ 25).
-  
-  - *Hint:* Use `mutate()` along with `case_when()` to create the new variable.
+Create a new variable `weight_category` based on the mother's weight (`lwt`) in pounds. You can categorize the weight into three categories:
+
+- "Underweight" (weight < 120 lbs),
+
+- "Normal weight" (120 ≤ weight < 160 lbs),
+
+- "Overweight" (weight ≥ 160 lbs).
+
+  - Hint: Use mutate() along with case_when() to create the new variable.
 
 ```{r}
 #| echo: false
@@ -191,14 +220,19 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| message: false
 #| results: false
 
-
-
+df <- df %>%
+  mutate(weight_category = case_when(
+    lwt < 120 ~ "Underweight",
+    lwt >= 120 & lwt < 160 ~ "Normal weight",
+    lwt >= 160 ~ "Overweight",
+    T ~ NA
+  ))
 
 ```
 
-### **Question 10:** Count the Number of Babies by BMI Category and Smoking Status
+### **Question 10:** Count the Number of Babies by Mother's race and Smoking Status
 
-- Group the dataset by both `bmi_category` and `smoke` (whether the mother smokes or not), and count the number of babies in each group.
+- Group the dataset by both `race`` and `smoke` (whether the mother smokes or not), and count the number of babies in each group.
   
   - *Hint:* Use `group_by()` and `count()` to achieve this.
 
@@ -209,13 +243,15 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| results: false
 
 
-
+df |> 
+  group_by(race, smoke) |> 
+  count()
 
 ```
 
-### **Question 11:** Filter Babies Born with Low Birth Weight and Mother's BMI Over 30
+### **Question 11:** Filter Babies Born with Low Birth Weight and Mother's weight.
 
-- Filter the dataset to find babies who were born with a low birth weight (`bwt` < 2500g) and whose mother has a BMI greater than 30.
+- Filter the dataset to find babies who were born with a low birth weight (`bwt` < 2500g) and whose mother has a weight is `> 160 lb`.
   
   - *Hint:* Use `filter()` to select both conditions.
   
@@ -225,6 +261,8 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| message: false
 #| results: false
 
+df |> 
+  filter(low != "Normal", lwt > 160)
 
 
 
@@ -242,7 +280,9 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
 #| message: false
 #| results: false
 
-
+df |>
+  count(race, low) |> 
+  mutate(per = n / sum(n))
 
 
 ```

@@ -1,36 +1,37 @@
 ## A Comprehensive Workshop on Research Methodologies & Data Analysis Using R
 
 ::: {style="text-align:justify"}
-
 Welcome to our website!
 
-This platform serves as the official companion to the Research Methodology and Data Analysis workshop, crafted and maintained by the Public Health Data Science Lab at the **Achutha Menon Centre for Health Science Studies, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum**. We're excited to support your journey through this workshop, where knowledge meets practical application.
+This platform serves as the official companion to the Research Methodology and Data Analysis workshop, crafted and maintained by the AMC Data Science Lab at the [**Achutha Menon Centre for Health Science Studies**](https://www.sctimst.ac.in/About%20SCTIMST/Organisation/AMCHSS/), the public health unit of the [**Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum**.](https://www.sctimst.ac.in/) We're excited to support your journey through this workshop, where knowledge meets practical application.
 
-The workshop is held at **IQRAA Hospital** in **Calicut** from **14th to 16th November 2024**, bringing together clinicians and researchers to enhance their understanding of research methodology and data analysis techniques.
+The next workshop will be held at the [**IQRAA Hospital**](https://iqraahospital.in/) in Kozhikode, Kerala, from the **14th to the 16th of November 2024**, bringing together clinicians and researchers to enhance their understanding of research methodology and data analysis techniques.
 
-The overall goal of this workshop is to introduce healthcare professionals to fundamental research methodologies and equip them with practical skills in data analysis using R. Participants will gain a solid understanding of statistical techniques, data visualization, and the use of R programming for reproducible research. Additionally, the workshop will explore how to create publication-ready tables and apply these methods to real-world healthcare data, with a special focus on epidemiological measures.
+This workshop aims to introduce healthcare professionals to fundamental research methodologies and equip them with practical skills in data analysis using R. Participants will gain a solid understanding of statistical techniques, data visualisation, and the use of R programming for reproducible research. Additionally, the workshop will explore how to create publication-ready tables and apply these methods to real-world healthcare data, with a particular focus on epidemiological measures.
 :::
 
 ### What is covered in the workshop?
 
 ::: {style="text-align:justify"}
-The workshop spans three days, combining interactive lectures to provide a comprehensive introduction to research methodologies and data analysis using R.
+The workshop spans three days, combining interactive lectures to introduce research methodologies and data analysis using R comprehensively.
 
-On Day One, the workshop begins with an inauguration session and an introduction to data science and R programming. The day will cover the fundamentals of research design, including research question formulation, types of research designs, and sample size estimation. The afternoon will introduce participants to digital data collection tools (ODK) and guide them through literature review strategies, along with the use of bibliographic software like Zotero. AT the end of the day the participants will become familiar with the R programming environment and RStudio interface, learning key features and layouts.
+On Day One, the workshop begins with an inauguration session and an introduction to data science and R programming. The day will cover the fundamentals of research design, including research question formulation, types of research designs, and sample size estimation. In the afternoon, novel ways of data collection, using digital tools like the [Open Data Kit](https://research.iqraahospital.in/) (ODK), will be introduced. We shall also guide them through the literature review strategies using bibliographic software like [Zotero](https://www.zotero.org/). We shall introduce [R: the Language and Environment for Statistical Computing](https://www.R-project.org/) towards the end of the day, along with the IDE, RStudio.
 
-Day Two begins with a recap of the previous day. The morning session will focus on types of variables, project creation in R, and reading and writing data. Participants will also learn how to visualize data and explore different methods for analyzing it. The afternoon session will dive deeper into descriptive statistics, providing a solid foundation in numeric methods for data analysis. The day will conclude with an introduction to Quarto, enabling participants to create and export reports for their research findings.
+Day Two begins with a recap of the previous day. The morning session will focus on types of variables, project creation in R, and reading and writing data. Participants will also learn how to visualise data and explore different analysis methods. We shall dive deeper into descriptive statistics in the afternoon, providing a solid foundation in numeric methods for data analysis. The day will conclude with an introduction to Quarto, enabling participants to create and export reports for their research findings.
 
-Day Three starts with a recap and doubt clearance session. The focus then shifts to inferential statistics, where participants will learn about hypothesis testing and regression analysis. The morning will also cover the creation of publication-ready tables, which is essential for presenting research results in a professional format. The afternoon will provide an overview of epidemiological measures, ensuring that participants understand key metrics like incidence and prevalence. The workshop concludes with a feedback and valedictory session, offering participants a chance to clarify doubts and reflect on their learning experience.
+Day Three starts with a recap and doubt clearance session. The focus then shifts to inferential statistics, where participants learn about hypothesis testing and regression analysis. The morning will also cover the creation of publication-ready tables, which is essential for presenting research results in a professional format. The afternoon will provide an overview of epidemiological measures, ensuring that participants understand critical metrics like incidence and prevalence. The workshop concludes with a feedback and valedictory session, offering participants a chance to clarify doubts and reflect on their learning experiences.
 :::
 
 ### Accompanying Online Book
 
 ::: {style="text-align:justify"}
-An accompanying online book will be provided to all participants, offering detailed information on each topic covered during the workshop. The online book will serve as a comprehensive reference, providing in-depth explanations, practical examples, and additional resources for further study. It will be accessible digitally, allowing participants to easily refer back to the material at any time. The book will complement the workshop's content and help participants apply the knowledge gained in their own research projects.
+An accompanying online book will be provided to all participants, offering detailed information on each topic covered during the workshop. The online book will serve as a comprehensive reference, giving in-depth explanations, practical examples, and additional resources for further study. It will be accessible digitally, allowing participants to refer back to the material at any time quickly. The book will complement the workshop's content and help participants apply the knowledge gained in their own research projects.
+
+We acknowledge the contributions of **Dr Arun Mitra Peddireddy** and **Dr Gurpreet Singh**, who developed the concepts and design of these RIntro workshop series for health professionals in 2021 at SCTIMST with **Prof. Biju Soman**. Since then, we have conducted over ten training programs, incrementally modifying the content and design. The philosophy of this workshop series is hand-holding and collaboration so that more health professionals come into data science and reproducible research inspired by the open philosophy. The profiles of the current resource persons for the workshop are given on the following pages.
 :::
 
 ### What is not covered in the workshop?
 
 ::: {style="text-align:justify"}
-This workshop focuses on foundational concepts in research methodologies,and data analysis using R. It does not cover advanced statistical or epidemiological methods in depth. While key aspects of regression analysis and hypothesis testing will be introduced, the workshop does not delve into specialized topics like advanced machine learning techniques or complex statistical modeling. Participants seeking more advanced training in these areas may consider future workshops, depending on demand.
+This workshop focuses on the foundational concepts in research methodologies and data analysis using R. It does not cover advanced statistical or epidemiological methods in depth. While key aspects of regression analysis and hypothesis testing will be introduced, the workshop does not delve into specialised topics like advanced machine learning techniques or complex statistical modelling. Participants seeking more advanced training in these areas may consider future workshops. We shall be offering further workshops/seminars, depending on demand.
 :::

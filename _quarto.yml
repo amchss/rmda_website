@@ -34,6 +34,7 @@ website:
         - exercise_gtsummary.qmd
         - exercise_zotero.qmd
         - all_data.qmd
+                
     
 format:
   html:

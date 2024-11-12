@@ -1,0 +1,19 @@
+# Exercise 9: Zotero
+
+#### **Question 1:** Install Zotero 7 on your computer.
+
+#### **Question 2:** Install the ZotMoov addon.
+
+#### **Question 3:** Collect the following two references
+
+doi: 10.4103/ijph.IJPH_483_20
+
+Singh G, Srinivas G, Jyothi EK, Gayatri LK, Gaitonde R, Soman B. Containing the first outbreak of COVID-19 in a healthcare setting in India: The sree chitra experience. Indian Journal of Public Health. 2020;64(6):240. doi:10.4103/ijph.IJPH_483_20
+
+doi:10.1136/bmjopen-2018-027880
+
+Sarma PS, Sadanandan R, Thulaseedharan JV, et al. Prevalence of risk factors of non-communicable diseases in Kerala, India: results of a cross-sectional study. BMJ Open. 2019;9(11). doi:10.1136/bmjopen-2018-027880
+
+#### **Question 4:** Add citation and reference in a word document.
+
+#### **Question 5:** Change the citation into Harvard Style.

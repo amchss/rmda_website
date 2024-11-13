@@ -111,7 +111,9 @@ df |>
 
 - Identify how many distinct races are represented in the low birth weight dataset.
 
-  - *Hint:* Use `select()` and `count()`.
+- Find the number of different races in the dataset.
+
+  - *Hint:* Use `distinct()` and `count()`.
 
 ```{r}
 #| echo: false

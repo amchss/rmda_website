@@ -129,7 +129,7 @@ df <- df %>%
 
 df <- df %>%
   mutate(
-    race = factor(race, levels = c("White", "Black", "Others")) # Reorder factor levels
+    race = factor(race, levels = c("White", "Black", "Other")) # Reorder factor levels
   )
 ```
 

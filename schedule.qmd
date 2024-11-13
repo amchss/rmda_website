@@ -12,7 +12,7 @@ The schedule includes a variety of sessions designed to introduce participants t
 ------------------------------------------------------------------------
 
 | **Day** | **Session** | **Time** | **Topic** |
-|-----------------|-----------------|-----------------|---------------------|
+|-----------------|-----------------|-----------------|--------------------|
 | Day 1 | Morning | 09:00-09:30 | Inauguration |
 |  |  | 09:30-10:00 | [Introduction to Data Science & R Programming Language](https://amchss.github.io/rmda_book/intro_r.html) |
 |  |  | 10:00-10:30 | Tea Break |
@@ -34,8 +34,8 @@ The schedule includes a variety of sessions designed to introduce participants t
 |  |  | 12:30-13:30 | Lunch Break |
 |  | Afternoon | 13:30-14:30 | [Data Exploration Verbs](https://amchss.github.io/rmda_book/intro_r.html#dplyr-package) |
 |  |  | 14:30-15:30 | [Descriptive Statistics: Numeric Methods](https://amchss.github.io/rmda_book/statistical_methods.html#descriptive-statistics-numerical-methods) |
-|  |  | 13:30-13:45 | Tea Break |
-|  |  | 13:45-15:00 | [Introduction to Quarto](https://amchss.github.io/rmda_book/quarto.html) |
+|  |  | 15:30-15:45 | Tea Break |
+|  |  | 15:45-17:00 | [Introduction to Quarto](https://amchss.github.io/rmda_book/quarto.html) |
 | Day 3 | Morning | 09:00-09:15 | Recap of Previous Day |
 |  |  | 09:15-10:00 | [Inferential Statistics](https://amchss.github.io/rmda_book/statistical_methods.html#inferential-statistics) |
 |  |  | 10:00-10:30 | Tea Break |

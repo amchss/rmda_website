@@ -25,7 +25,7 @@ editor_options:
   - *Hint:* Use `pacman::p_load()` for loading the required packages.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -76,7 +76,7 @@ df |>
   - *Hint:* Use function `count()`.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -96,7 +96,7 @@ df |>
    - *Hint:* Use function `count()`.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -116,7 +116,7 @@ df |>
   - *Hint:* Use `distinct()` and `count()`.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -135,7 +135,7 @@ df |>
   - *Hint:* Use `summary()`, `max()`, or `min()` functions.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -172,7 +172,7 @@ In Part 2, you will build on the basic data exploration tasks by applying more a
   - *Hint:* Use `filter()` to select rows where `smoke == "Smoker"` (assuming `1` represents smokers).
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -191,7 +191,7 @@ df |>
   - *Hint:* You can also calculate other summary statistics such as the median or standard deviation of birth weights.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -217,7 +217,7 @@ Create a new variable `weight_category` based on the mother's weight (`lwt`) in 
   - Hint: Use mutate() along with case_when() to create the new variable.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -239,7 +239,7 @@ df <- df %>%
   - *Hint:* Use `group_by()` and `count()` to achieve this.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -258,7 +258,7 @@ df |>
   - *Hint:* Use `filter()` to select both conditions.
   
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -277,7 +277,7 @@ df |>
   - *Hint:* Use `group_by()` and `mutate()` to calculate the proportion. Use `sum()` to count the number of babies with low birth weight.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false

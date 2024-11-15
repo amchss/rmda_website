@@ -96,7 +96,7 @@ df |>
    - *Hint:* Use function `count()`.
 
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false
@@ -116,7 +116,7 @@ df |>
   - *Hint:* Use `distinct()` and `count()`.
 
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false
@@ -135,7 +135,7 @@ df |>
   - *Hint:* Use `summary()`, `max()`, or `min()` functions.
 
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false
@@ -217,7 +217,7 @@ Create a new variable `weight_category` based on the mother's weight (`lwt`) in 
   - Hint: Use mutate() along with case_when() to create the new variable.
 
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false
@@ -239,7 +239,7 @@ df <- df %>%
   - *Hint:* Use `group_by()` and `count()` to achieve this.
 
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false
@@ -258,7 +258,7 @@ df |>
   - *Hint:* Use `filter()` to select both conditions.
   
 ```{r}
-#| code-fold: true
+#| echo: true
 #| warning: false
 #| message: false
 #| results: false

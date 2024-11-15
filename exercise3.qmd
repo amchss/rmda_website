@@ -32,7 +32,7 @@ The goal of this exercise is to introduce participants to data visualization usi
   - *Hint:* Use functions like `pacman::p_load()` for loading the packages.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -56,7 +56,7 @@ df <- read_csv(here("data", "low_birth_weight.csv"))
   - *Hint:* Use `geom_histogram()`.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -86,7 +86,7 @@ ggplot(df, aes(x = bwt)) +
   - try `race` as x axis.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -116,7 +116,7 @@ ggplot(df, aes(x = race, y = bwt)) +
   - *Hint:* Use `geom_point()`.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -145,7 +145,7 @@ ggplot(df, aes(x = lwt, y = bwt, color = race)) +
   - *Hint:* Use `geom_bar()` for bar charts.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -174,7 +174,7 @@ ggplot(df, aes(x = smoke)) +
  
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -193,7 +193,7 @@ ggsave(here("plots", "histogram_bwt.png"))
 ### **Question 7:** Try `facet_wrap()`
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false

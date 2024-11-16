@@ -41,7 +41,7 @@ ___
 
 - Is the average birth weight of babies in the dataset significantly different from 2500 grams?
 
-  - *Hint:* Use the `bwt` variable for testing the mean of a single sample.
+  - *Hint:* Use the `bwt` variable for testing the mean of a single sample. (One sample t-test)
   - State the null and alternative hypotheses.
   - Perform the analysis and interpret the p-value.
 
@@ -63,7 +63,7 @@ t.test(mu = 2500, x = df$bwt)
 
 - Is there a significant difference in the mean birth weight of babies born to mothers who smoke compared to those who do not smoke?
   
-  - *Hint:*  Use the `bwt` variable for birth weight and `smoke` variable for smoking status.
+  - *Hint:*  Use the `bwt` variable for birth weight and `smoke` variable for smoking status. (two sample t-test)
   - Define your null and alternative hypotheses.
   - Report the summary statistics and interpret the test results.
 
@@ -84,7 +84,7 @@ t.test(bwt ~ smoke, data = df)
 
 - Is the proportion of babies with low birth weight (defined as less than 2500 grams) significantly different from 10% in this dataset?
   
-  - *Hint:* Use the `low` variable for categorizing low birth weight.
+  - *Hint:* Use the `low` variable for categorizing low birth weight. (test for proportion)
   - State the null and alternative hypotheses.
   - Report the proportion and draw a conclusion based on your analysis.
   
@@ -115,7 +115,7 @@ prop.test(x, n, p = 0.10)
 
 - Does the mean birth weight of babies differ across different racial groups in the dataset?
   
-  - *Hint:* Use the `race` variable for grouping and the `bwt` variable for analysis.
+  - *Hint:* Use the `race` variable for grouping and the `bwt` variable for analysis. (ANOVA)
   - Formulate the null and alternative hypotheses.
   - Summarize the findings and interpret the p-value.
   
@@ -142,7 +142,7 @@ summary(aov(bwt ~ race, data = df))
 
 - Is there an association between maternal smoking status and the likelihood of having a low birth weight baby (birth weight < 2500 grams)?
   
-  - *Hint:* Use the `smoke` variable for smoking status and the `low` variable for categorizing low birth weight.
+  - *Hint:* Use the `smoke` variable for smoking status and the `low` variable for categorizing low birth weight. (Chi Square test)
   - Define your hypotheses.
   - Report the test statistic and p-value, and explain your conclusion.
 

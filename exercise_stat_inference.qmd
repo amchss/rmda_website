@@ -9,7 +9,7 @@ editor_options:
 In this exercise, you will apply different statistical inference techniques to analyze the low birth weight dataset. The questions are designed to help you decide which hypothesis test is most appropriate for each scenario. You will learn to interpret the results and make data-driven conclusions.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 
@@ -47,7 +47,7 @@ ___
 
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -68,7 +68,7 @@ t.test(mu = 2500, x = df$bwt)
   - Report the summary statistics and interpret the test results.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -90,7 +90,7 @@ t.test(bwt ~ smoke, data = df)
   
   
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -121,7 +121,7 @@ prop.test(x, n, p = 0.10)
   
   
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false
@@ -148,7 +148,7 @@ summary(aov(bwt ~ race, data = df))
 
 
 ```{r}
-#| echo: false
+#| code-fold: true
 #| warning: false
 #| message: false
 #| results: false

@@ -179,27 +179,3 @@ model |>
 tbl_regression()
 ```
 
-### **Question 6:** Export the Table
-
-- Save the summary table as an `.docx` file in the `results` folder of your project directory.
-- Use the `gtsave()` function to export the table.
-
-#### Answer
-
-```{r}
-#| code-fold: true
-#| eval: false
-
-# Ensure the necessary packages are loaded
-pacman::p_load(tidyverse, gtsummary, gt, here)
-
-# Create the summary table
-summary <- tbl_summary(df)
-
-# Convert the `gtsummary` object to a `gt` table and save it
-summary  |> 
-  as_gt() |> 
-  gtsave(filename = here("results", "summary_table.docx"))
-
-```
-

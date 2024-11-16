@@ -90,7 +90,7 @@ t.test(bwt ~ smoke, data = df)
   
   
 ```{r}
-#| code-fold: true
+#| echo: false
 #| warning: false
 #| message: false
 #| results: false
@@ -121,7 +121,7 @@ prop.test(x, n, p = 0.10)
   
   
 ```{r}
-#| code-fold: true
+#| echo: false
 #| warning: false
 #| message: false
 #| results: false
@@ -148,7 +148,7 @@ summary(aov(bwt ~ race, data = df))
 
 
 ```{r}
-#| code-fold: true
+#| echo: false
 #| warning: false
 #| message: false
 #| results: false
